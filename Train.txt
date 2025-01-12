@@ -1,0 +1,29 @@
+1. Shipment Efficiency:
+
+- Through Extracting The Dataset, I've Identified The Impacts on Delivery Times : Shipment Method (Procdures Differ in Time Managment), Product Importance (Amount of Care Given to Object), Weight in Grams (Higher Weight means more peripherals to be used).
+- Delivery Times are Affected Greatly by Shipment Mode, especially on flights and roads as the number of late arrivals on both methods are close to those that arrive on time (Flights : 1069 on time / 708 late & Roads : 1035 on time/ 725 late).
+
+
+2. Customer Insights:
+
+- Using Correlation Method in python, I detected a weak positive correlation between customer care calls and customer rating (0.0122) so while there is an impact, it is not a heavy one. This makes sense since more customer care calls wouldn't exactly lead to a high customer rating.
+- After Further Examination, there doesnt seem to be an effect on ratings when it comes to discount, even high discount seems to have low rating due to the experience itself.
+
+
+3. Product Analysis:
+
+- I have already discussed the relationship between delivery times and product weight in Task 1.
+- by filtering on each product importance and sorting based on costs, i conclude the cost of the product is inversely propotional (meaning lower importance mean higher costs. this seems to be an anomaly considering some product end up arriving late or appear broken which would cause an issue.).
+
+
+4. Warehouse Performance:
+
+- After careful Analysis, the warehouse with the highest percentage of successful delivery times is Block F (33.4%) with the runner-ups being Block B (16.8%) & Block D (16.7%)
+- Each Block seems to have simialrity in both on-time and late delivery except Block A who has more late arrivals (17.1) than on-time arrival(16.4%). so it would be best for the company to provide strict rules on timing and supervise more on Block A to reduce late arrivals.
+
+* Important Remarks :
+
+- There needs to be early arrivals to fully estimate on-time deliveries.
+- Supervise timing restrictions on each Warehouse Block (Especially Block A) to Provide Customer Statisfaction.
+- Apply Thresholds to Discounts offered because since the customer rates based on experience, discounts would feel like a form of bribery and would also cost the company a lot of money.
+
